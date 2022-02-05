@@ -1,0 +1,59 @@
+[
+    {
+        "name" : "Eddard",
+        "surname" : "Stark",
+        "dateOfBirth" : "1977-02-01",
+        "phones" : [
+            "123456789",
+            "234567890"
+        ]
+    },
+    {
+        "name" : "Catelyn",
+        "surname" : "Tully",
+        "dateOfBirth" : "1985-05-20",
+        "phones" : [
+            "345678901",
+            "456789012"
+        ]
+    },
+    {
+        "name" : "Robb",
+        "surname" : "Stark",
+        "dateOfBirth" : "2005-11-03",
+        "phones" : [
+            "567890123"
+        ]
+    },
+    {
+        "name" : "Sansa",
+        "surname" : "Stark",
+        "dateOfBirth" : "2006-12-12",
+        "phones" : [
+            "678901234",
+            "789012345"
+        ]
+    },
+    {
+        "name" : "Arya",
+        "surname" : "Stark",
+        "dateOfBirth" : "2010-04-24",
+        "phones" : [
+            "890123456"
+        ]
+    },
+    {
+        "name" : "Brandon",
+        "surname" : "Stark",
+        "dateOfBirth" : "2014-07-08",
+        "phones" : [
+            "901234567"
+        ]
+    },
+    {
+        "name" : "Rickon",
+        "surname" : "Stark",
+        "dateOfBirth" : "2019-10-28",
+        "phones" : []
+    }
+]

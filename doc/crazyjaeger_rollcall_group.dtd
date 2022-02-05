@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT group (groupname?, description?, members, controls*)>
+<!ELEMENT group (groupname?, description?, members)>
 <!ELEMENT groupname (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
 <!ELEMENT members (member*)>
@@ -29,16 +29,3 @@
 >
 <!ELEMENT presence EMPTY>
 <!ATTLIST presence present (true|false) #REQUIRED>
-<!ELEMENT controls (control*)>
-<!ELEMENT control (control-date, control-stats)>
-<!ELEMENT control-date EMPTY>
-<!ATTLIST control-date
-    year CDATA #REQUIRED
-    month CDATA #REQUIRED
-    day CDATA #REQUIRED
->
-<!ELEMENT control-stats EMPTY>
-<!ATTLIST control-stats
-    present CDATA #REQUIRED
-    absent CDATA #REQUIRED
->

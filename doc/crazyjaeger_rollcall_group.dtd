@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT group (groupname?, description?, members+, controls*)>
+<!ELEMENT group (groupname?, description?, members, controls*)>
 <!ELEMENT groupname (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
+<!ELEMENT members (member*)>
 <!ELEMENT member (membername, membersurname, date-of-birth, phones, note?, records?)>
 <!ELEMENT membername (#PCDATA)>
 <!ELEMENT memebersurname (#PCDATA)>
@@ -9,7 +10,7 @@
 <!ATTLIST date-of-birth
     year CDATA #REQUIRED
     month CDATA #REQUIRED
-    year CDATA #REQUIRED
+    day CDATA #REQUIRED
 >
 <!ELEMENT phones ( (phone?)|(phone, phone) )>
 <!ELEMENT phone EMPTY>
@@ -24,7 +25,7 @@
 <!ATTLIST record-date
     year CDATA #REQUIRED
     month CDATA #REQUIRED
-    year CDATA #REQUIRED
+    day CDATA #REQUIRED
 >
 <!ELEMENT presence EMPTY>
 <!ATTLIST presence present (true|false) #REQUIRED>
@@ -34,7 +35,7 @@
 <!ATTLIST control-date
     year CDATA #REQUIRED
     month CDATA #REQUIRED
-    year CDATA #REQUIRED
+    day CDATA #REQUIRED
 >
 <!ELEMENT control-stats EMPTY>
 <!ATTLIST control-stats

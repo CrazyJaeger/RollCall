@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE group SYSTEM "https://raw.githubusercontent.com/CrazyJaeger/RollCall/v0.X.X-dev/doc/crazyjaeger_rollcall_group.dtd">
+<group>
+    <members>
+        <member>
+            <membername>Eddard</membername>
+            <membersurname>Stark</membersurname>
+            <date-of-birth year="1977" month="02" day="01" />
+            <phones>
+                <phone number="123456789" />
+                <phone number="234567890" />
+            </phones>
+        </member>
+        <member>
+            <membername>Catelyn</membername>
+            <membersurname>Tully</membersurname>
+            <date-of-birth year="1985" month="05" day="20" />
+            <phones>
+                <phone number="345678901" />
+                <phone number="456789012" />
+            </phones>
+        </member>
+        <member>
+            <membername>Robb</membername>
+            <membersurname>Stark</membersurname>
+            <date-of-birth year="2005" month="11" day="03" />
+            <phones>
+                <phone number="567890123" />
+            </phones>
+        </member>
+        <member>
+            <membername>Sansa</membername>
+            <membersurname>Stark</membersurname>
+            <date-of-birth year="2006" month="12" day="12" />
+            <phones>
+                <phone number="678901234" />
+                <phone number="789012345" />
+            </phones>
+        </member>
+        <member>
+            <membername>Arya</membername>
+            <membersurname>Stark</membersurname>
+            <date-of-birth year="2010" month="04" day="24" />
+            <phones>
+                <phone number="890123456" />
+            </phones>
+        </member>
+        <member>
+            <membername>Brandon</membername>
+            <membersurname>Stark</membersurname>
+            <date-of-birth year="2014" month="07" day="08" />
+            <phones>
+                <phone number="901234567" />
+            </phones>
+        </member>
+        <member>
+            <membername>Rickon</membername>
+            <membersurname>Stark</membersurname>
+            <date-of-birth year="2019" month="10" day="28" />
+            <phones></phones>
+        </member>
+    </members>
+</group>

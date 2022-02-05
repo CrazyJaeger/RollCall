@@ -5,7 +5,7 @@
 <!ELEMENT members (member*)>
 <!ELEMENT member (membername, membersurname, date-of-birth, phones, note?, records?)>
 <!ELEMENT membername (#PCDATA)>
-<!ELEMENT memebersurname (#PCDATA)>
+<!ELEMENT membersurname (#PCDATA)>
 <!ELEMENT date-of-birth EMPTY>
 <!ATTLIST date-of-birth
     year CDATA #REQUIRED

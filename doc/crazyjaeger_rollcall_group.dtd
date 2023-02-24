@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT group (groupname?, description?, members)>
+<!ELEMENT groupname (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT members (member*)>
+<!ELEMENT member (membername, membersurname, date-of-birth, phones, note?, records?)>
+<!ELEMENT membername (#PCDATA)>
+<!ELEMENT membersurname (#PCDATA)>
+<!ELEMENT date-of-birth EMPTY>
+<!ATTLIST date-of-birth
+    year CDATA #REQUIRED
+    month CDATA #REQUIRED
+    day CDATA #REQUIRED
+>
+<!ELEMENT phones ( (phone?)|(phone, phone) )>
+<!ELEMENT phone EMPTY>
+<!ATTLIST phone
+    prefix CDATA #IMPLIED
+    number CDATA #REQUIRED
+>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT records (record*)>
+<!ELEMENT record (record-date, presence)>
+<!ELEMENT record-date EMPTY>
+<!ATTLIST record-date
+    year CDATA #REQUIRED
+    month CDATA #REQUIRED
+    day CDATA #REQUIRED
+>
+<!ELEMENT presence EMPTY>
+<!ATTLIST presence present (true|false) #REQUIRED>

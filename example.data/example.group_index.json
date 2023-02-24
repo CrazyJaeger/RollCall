@@ -1,0 +1,18 @@
+[
+    {
+        "name" : "House Stark",
+        "file" : "grp_housestark.json"
+    },
+    {
+        "name" : "House Lanister",
+        "file" : "grp_houselanister.json"
+    },
+    {
+        "name" : "House Baratheon",
+        "file" : "grp_housebaratheon.json"
+    },
+    {
+        "name" : "The Nightswatch",
+        "file" : "grp_thenightswatch.json"
+    }
+]

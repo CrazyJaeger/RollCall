@@ -48,6 +48,7 @@ class RegistroGrupo {
      * @param fechaCreacion fecha y hora de creacion del registro
      */
     constructor(nombreGrupo: String, nombreFichero: String, fechaCreacion: LocalDateTime) {
+        // TODO: null checks
         this.nombreGrupo = nombreGrupo
         this.nombreFichero = nombreFichero
         this.fechaCreacion = fechaCreacion
@@ -59,6 +60,7 @@ class RegistroGrupo {
      * @param registro instancia de RegistroGrupo en formato JSON
      */
     constructor(registro: JsonObject) {
+        // TODO: null checks
         nombreGrupo = registro.getString(NOMBRE_GRUPO)
         nombreFichero = registro.getString(NOMBRE_FICHERO)
         fechaCreacion = LocalDateTime.parse(registro.getString(FECHA_CREACION))

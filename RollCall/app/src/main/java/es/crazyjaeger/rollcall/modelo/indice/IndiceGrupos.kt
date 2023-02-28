@@ -11,25 +11,16 @@
  * You should have received a copy of the GNU General Public License along with RollCall. If not,
  * see <https://www.gnu.org/licenses/>.
  */
-package es.crazyjaeger.rollcall.interfaz
+package es.crazyjaeger.rollcall.modelo.indice
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import androidx.fragment.app.add
-import androidx.fragment.app.commit
-import es.crazyjaeger.rollcall.R
-import es.crazyjaeger.rollcall.interfaz.fragments.grupo.IndiceGruposFragment
-
-// TODO: documentar
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        if( savedInstanceState == null){
-            supportFragmentManager.commit {
-                setReorderingAllowed(true)
-                add<IndiceGruposFragment>(R.id.fragment_container)
-            }
-        }
-        setContentView(R.layout.activity_main)
-    }
+/**
+ * Indice de grupos registrados en la aplicacion.
+ *
+ * El indice de grupos contiene un listado con la informacion minima necesaria para identificar
+ * cada grupo asi como la informacion para que la aplicacion sea capaz de cargar los datos.
+ * @see RegistroGrupo
+ */
+class IndiceGrupos {
+    // TODO: setear atributos
+    val grupos: List<RegistroGrupo> = listOf()
 }
